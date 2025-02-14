@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Pagina de Cadastro</h1>
+    <p>Para amor da minha vida</p>
+    <form action="#" method="post" onsubmit="redirecionar(event)">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="alianca">Numero do Dedo Anelar:</label>
+        <input type="number" id="alianca" name="alianca"><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" required><br><br>
+        <input type="submit" value="Cadastrar">
+    </form>
+
+    <script>
+        function redirecionar(event) {
+            event.preventDefault();
+            window.location.href = "pagina_destino.html";
+        }
+       
+    </script>
+</body>
+</html>
+
