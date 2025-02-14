@@ -1,0 +1,44 @@
+body {
+    background-color: lightpink; /* Azul bebê para o fundo */
+    font-family: sans-serif; /* Fonte padrão para o corpo do texto */
+}
+
+h1 {
+    color: deeppink; /* Rosa para o título */
+    font-family: 'Lobster', sans-serif; /* Fonte animada para o título (exemplo) */
+    animation: animacaoTitulo 2s infinite alternate; /* Animação do título */
+    text-align: center; /* Centraliza o título */
+}
+
+@keyframes animacaoTitulo {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+h2 {
+    color:  deeppink; /* Rosa para o subtítulo */
+    text-align: center; /* Centraliza o subtítulo */
+}
+
+h3 {
+    color: deeppink; /* Rosa para o subtítulo extra */
+
+    text-align: center; /* Centraliza o subtítulo extra */
+}
+
+p {
+    color: black; /* Rosa para os parágrafos */
+    font-family: 'NomeDaFonteBonita', serif; /* Nome da fonte bonita para os parágrafos */
+    text-align: center; /* Centraliza os parágrafos */
+}
+
+img {
+    display: block; /* Faz a imagem ocupar toda a largura */
+    margin:  auto; /* Centraliza a imagem */
+    max-width: 50%; /* Define a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
